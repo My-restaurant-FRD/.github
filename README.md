@@ -84,10 +84,6 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 **Actores:** Chef, Cajero, Mesero  
 **Referencias:** CU02, CU04  
 **Descripción:** Consultar comandas registradas, mostrar detalles, editar  
-**Flujo Normal:**
-
-1. Usuario presiona “Comandas”  
-2. El sistema muestra pantalla principal con comandas en estado "Pedido"  
 
 ---
 
@@ -96,12 +92,6 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 **Actores:** Chef, Cajero, Mesero  
 **Referencias:** CU10  
 **Descripción:** Registrar nueva comanda (productos, cantidad, comentarios)  
-**Flujo Normal:**
-
-1. Usuario presiona “Nueva comanda de mesa”  
-2. Selecciona producto, cantidad, comentario (opcional)  
-3. Presiona “Guardar”  
-4. Sistema valida campos y crea la comanda con estado “Pedido”  
 
 ---
 
@@ -109,12 +99,6 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 **Actores:** Chef, Cajero, Mesero  
 **Descripción:** Editar productos, cantidades, comentarios, estado  
-**Flujo Normal:**
-
-1. Usuario presiona “Editar comanda”  
-2. Modifica código, productos, cantidades, estado  
-3. Presiona “Guardar”  
-4. Sistema valida y actualiza estado/comanda  
 
 ---
 
@@ -122,12 +106,6 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 **Actores:** Cajero  
 **Descripción:** Registrar el total y método de pago. Cambiar estado a “Cerrado”  
-**Flujo Normal:**
-
-1. Usuario presiona “Cobrar comanda”  
-2. Ingresa método de pago  
-3. Presiona “Cobrar”  
-4. Sistema valida y cierra la comanda  
 
 ---
 
