@@ -76,7 +76,7 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 - CU15: Registrar sector  
 
 ---
-![Diagrama de Casos de Uso](Diagrama de Casos de Uso.png)
+![Diagrama de Casos de Uso](Diagrama%20de%20Casos%20de%20Uso.png)
 ---
 
 ## Definición de casos de uso
