@@ -77,7 +77,7 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 ---
 
-![Diagrama de Casos de Uso](Diagrama%20de%20Casos%20de%20Uso.png)
+![Diagrama de Casos de Uso](Diagrama%20de%20Casos%20de%20Uso.drawio.png)
 
 ---
 
