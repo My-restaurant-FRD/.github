@@ -61,19 +61,18 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 - CU01: Consultar comandas  
 - CU02: Registrar comanda de mesa  
-- CU03: Registrar comanda de delivery  
-- CU04: Editar comanda  
-- CU05: Cobrar comanda  
-- CU06: Cancelar comanda  
-- CU07: Consultar menú  
-- CU08: Editar producto  
-- CU09: Registrar producto  
-- CU10: Consultar mesas  
-- CU11: Editar mesa  
-- CU12: Registrar mesa  
-- CU13: Consultar sectores  
-- CU14: Editar sector  
-- CU15: Registrar sector  
+- CU03: Editar comanda  
+- CU04: Cobrar comanda  
+- CU05: Cancelar comanda  
+- CU06: Consultar menú  
+- CU07: Editar producto  
+- CU08: Registrar producto  
+- CU09: Consultar mesas  
+- CU10: Editar mesa  
+- CU11: Registrar mesa  
+- CU12: Consultar sectores  
+- CU13: Editar sector  
+- CU14: Registrar sector  
 
 ---
 
@@ -99,28 +98,28 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 ---
 
-### CU04 - Editar comanda
+### CU03 - Editar comanda
 
 **Actores:** Chef, Cajero, Mesero  
 **Descripción:** Editar productos, cantidades, comentarios, estado  
 
 ---
 
-### CU05 - Cobrar comanda
+### CU04 - Cobrar comanda
 
 **Actores:** Cajero  
 **Descripción:** Registrar el total y método de pago. Cambiar estado a “Cerrado”  
 
 ---
 
-### CU06 - Cancelar comanda
+### CU05 - Cancelar comanda
 
 **Actores:** Cajero, Mesero  
 **Descripción:** Cancelar una comanda. El estado pasa a “Cancelado”  
 
 ---
 
-### CU07 - Consultar Menú
+### CU06 - Consultar Menú
 
 **Actores:** Chef, Cajero, Mesero  
 **Referencias:** CU09, CU08  
@@ -128,21 +127,21 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 ---
 
-### CU08 - Editar producto
+### CU07 - Editar producto
 
 **Actores:** Administrador  
 **Descripción:** Editar nombre, comandera, disponibilidad, precio unitario  
 
 ---
 
-### CU09 - Registrar producto
+### CU08 - Registrar producto
 
 **Actores:** Administrador  
 **Descripción:** Agregar producto nuevo (nombre, precio, comandera, disponibilidad)  
 
 ---
 
-### CU10 - Consultar mesas
+### CU09 - Consultar mesas
 
 **Actores:** Administrador  
 **Referencias:** CU11, CU12  
@@ -150,21 +149,21 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 ---
 
-### CU11 - Editar mesas
+### CU10 - Editar mesas
 
 **Actores:** Administrador  
 **Descripción:** Editar número de mesa y sector  
 
 ---
 
-### CU12 - Registrar mesa
+### CU11 - Registrar mesa
 
 **Actores:** Administrador  
 **Descripción:** Agregar una nueva mesa (número, sector)  
 
 ---
 
-### CU13 - Consultar sectores
+### CU12 - Consultar sectores
 
 **Actores:** Administrador  
 **Referencias:** CU14, CU15  
@@ -172,14 +171,14 @@ Desarrollar un sistema de información integral para restaurantes que permita di
 
 ---
 
-### CU14 - Editar sector
+### CU13 - Editar sector
 
 **Actores:** Administrador  
 **Descripción:** Editar nombre del sector y comandera asociada  
 
 ---
 
-### CU15 - Registrar sector
+### CU14 - Registrar sector
 
 **Actores:** Administrador  
 **Descripción:** Registrar un nuevo sector con su nombre  
